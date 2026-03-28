@@ -1,7 +1,7 @@
 import { render } from 'preact'
 import { useState, useEffect } from 'preact/hooks'
 import widgetCss from './widget.css?inline'
-import { ClerkWidgetClient, ChatMessage } from './api/client'
+import { ClerkWidgetClient, type ChatMessage } from './api/client'
 
 type ClerkChatInitOptions = {
   publicKey: string
